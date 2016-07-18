@@ -13,5 +13,3 @@ It's time to add Firebase to your app. To do this you'll need a Firebase project
 4. **At the end, you'll download a google-services.json file. You can download this file again at any time.**
 5. **If you haven't done so already, copy this into your project's module folder, typically app/.**
 
-Errores conocidos:
-- Crash de la aplicación al cerrar sesión.

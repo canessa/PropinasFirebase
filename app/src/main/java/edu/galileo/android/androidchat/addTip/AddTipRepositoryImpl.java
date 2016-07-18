@@ -39,8 +39,8 @@ public class AddTipRepositoryImpl implements AddTipRepository {
                     String currentUserEmailKey = helper.getAuthUserEmail();
                     currentUserEmailKey = currentUserEmailKey.replace(".","_");
 
-                    DatabaseReference userContactsReference = helper.getTipsReference(currentUserEmailKey);
-                    userContactsReference.child("tip_"+tip.getDate().toString()).setValue(tip);
+                    DatabaseReference userTipsReference = helper.getTipsReference(currentUserEmailKey);
+                    userTipsReference.child("tip_"+tip.getDate().toString()).setValue(tip);
                 } else {
                     event.setError(true);
                 }
@@ -60,8 +60,6 @@ public class AddTipRepositoryImpl implements AddTipRepository {
         String currentUserEmailKey = helper.getAuthUserEmail();
         currentUserEmailKey = currentUserEmailKey.replace(".","_");
         final DatabaseReference userReference = helper.getTipsReference(currentUserEmailKey);
-
-        final ArrayList<Tip> listaTips = new ArrayList<Tip>();
 
         userReference.addValueEventListener(new ValueEventListener() {
             @Override

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="casi_blanco1">#e9e9e9</color>
+    <color name="casi_blanco2">#e4e4e4</color>
+    <color name="casi_blanco3">#d7d7d7</color>
+    <color name="casi_blanco4">#d3d3d3</color>
+    <color name="casi_blanco5">#a8a8a8</color>
+    <color name="presionar1">#33b5e5</color>
+    <color name="presionar2">#00ddff</color>
+    <color name="presionar3">#0099cc</color>
+    <color name="greyMed">#C9C9C9</color>
+    <color name="greyLgt">#ECECEC</color>
+</resources>
